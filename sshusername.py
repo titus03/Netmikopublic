@@ -19,7 +19,7 @@ cat4331 = {
 netconnect = ConnectHandler(**cat4331)
 output = netconnect.send_command(command1)
 print(output)
-output = netconnect.send_command(command1)
+output = netconnect.send_command(command2)
 print(output)
 output = netconnect.send_command(command3)
 print(output)
